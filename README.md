@@ -1,7 +1,7 @@
 # Game Engines 2 Lab Test 2019
 
 ## Rules
-
+ 
 - You can access the Unity documentation if you need to look something up, but apart from that no use of any internet resources or notes permitted. 
 - No use of any prewritten code apart from what is contained in the starter project.
 - Fork and clone this git repository to get the starter project for today's test. This has a starter scene and code to implement a variety of steering behaviours and a state machine implementation. There are also prefabs for the fighters, bases and bullets
