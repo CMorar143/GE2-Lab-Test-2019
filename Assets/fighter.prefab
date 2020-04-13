@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5524477041282564758}
   - component: {fileID: 5524477041282564749}
+  - component: {fileID: 6973156301634150700}
   m_Layer: 9
   m_Name: fighter
   m_TagString: Untagged
@@ -50,7 +51,7 @@ TrailRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 323ea774f09427f479ab639113a2ad6b, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -58,6 +59,7 @@ TrailRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -136,6 +138,18 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!114 &6973156301634150700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5524477041282564756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbef3fb57ee51bb4b958d43a1d2a0e9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8813897858953667768
 GameObject:
   m_ObjectHideFlags: 0
@@ -202,6 +216,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0

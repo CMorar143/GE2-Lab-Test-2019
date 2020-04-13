@@ -847,7 +847,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e59e1c392a7ba04789b16c88e199471, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiberium: 5
+  tiberium: 8
   text: {fileID: 197494989}
   fighterPrefab: {fileID: 5524477041282564756, guid: 5102c343c1a0cad468bdf261e0a627c7,
     type: 3}
@@ -1384,7 +1384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e59e1c392a7ba04789b16c88e199471, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiberium: 5
+  tiberium: 8
   text: {fileID: 632246730}
   fighterPrefab: {fileID: 5524477041282564756, guid: 5102c343c1a0cad468bdf261e0a627c7,
     type: 3}
@@ -1585,7 +1585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e59e1c392a7ba04789b16c88e199471, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiberium: 5
+  tiberium: 8
   text: {fileID: 782841948}
   fighterPrefab: {fileID: 5524477041282564756, guid: 5102c343c1a0cad468bdf261e0a627c7,
     type: 3}
@@ -1638,7 +1638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e59e1c392a7ba04789b16c88e199471, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiberium: 5
+  tiberium: 8
   text: {fileID: 862900976}
   fighterPrefab: {fileID: 5524477041282564756, guid: 5102c343c1a0cad468bdf261e0a627c7,
     type: 3}
