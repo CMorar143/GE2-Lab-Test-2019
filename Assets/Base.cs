@@ -5,9 +5,11 @@ using UnityEngine;
 
 public class Base : MonoBehaviour
 {
+	public Transform chosenEnemy;
 	public float tiberium = 0;
     public TextMeshPro text;
     public GameObject fighterPrefab;
+	public GameObject[] enemies;
 
 	private IEnumerator AccumulateTiberium(float time)
 	{
@@ -25,11 +27,13 @@ public class Base : MonoBehaviour
 
 	private void CreateShip()
 	{
+		chosenEnemy = enemies[Random.Range(0, 2)].transform;
 		tiberium -= 10;
 		GameObject ship = Instantiate(fighterPrefab, transform.position + new Vector3(0, 0, 2), Quaternion.identity);
 		ship.transform.parent = this.transform;
 		ship.GetComponent<Renderer>().material.color = gameObject.GetComponent<Renderer>().material.color;
 		ship.GetComponentInChildren<MeshRenderer>().material.color = gameObject.GetComponent<Renderer>().material.color;
+		ship.GetComponent<Ship>().enemy = chosenEnemy;
 	}
 
 	private void OnEnable()

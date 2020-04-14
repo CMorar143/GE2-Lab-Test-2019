@@ -851,6 +851,10 @@ MonoBehaviour:
   text: {fileID: 197494989}
   fighterPrefab: {fileID: 5524477041282564756, guid: 5102c343c1a0cad468bdf261e0a627c7,
     type: 3}
+  enemies:
+  - {fileID: 1363778829}
+  - {fileID: 947435939}
+  - {fileID: 1606550179}
 --- !u!65 &748959473
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1388,6 +1392,10 @@ MonoBehaviour:
   text: {fileID: 632246730}
   fighterPrefab: {fileID: 5524477041282564756, guid: 5102c343c1a0cad468bdf261e0a627c7,
     type: 3}
+  enemies:
+  - {fileID: 1363778829}
+  - {fileID: 748959471}
+  - {fileID: 1606550179}
 --- !u!65 &947435941
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1589,6 +1597,10 @@ MonoBehaviour:
   text: {fileID: 782841948}
   fighterPrefab: {fileID: 5524477041282564756, guid: 5102c343c1a0cad468bdf261e0a627c7,
     type: 3}
+  enemies:
+  - {fileID: 748959471}
+  - {fileID: 947435939}
+  - {fileID: 1606550179}
 --- !u!54 &1363778835
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1642,6 +1654,10 @@ MonoBehaviour:
   text: {fileID: 862900976}
   fighterPrefab: {fileID: 5524477041282564756, guid: 5102c343c1a0cad468bdf261e0a627c7,
     type: 3}
+  enemies:
+  - {fileID: 1363778829}
+  - {fileID: 748959471}
+  - {fileID: 947435939}
 --- !u!65 &1606550181
 BoxCollider:
   m_ObjectHideFlags: 0
