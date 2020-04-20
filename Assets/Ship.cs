@@ -5,6 +5,7 @@ using UnityEngine;
 public class Ship : MonoBehaviour
 {
 	public Transform enemy;
+	private Vector3 target;
 	public Vector3 velocity = Vector3.zero;
 	public Vector3 acceleration = Vector3.zero;
 	public Vector3 force = Vector3.zero;
@@ -18,11 +19,11 @@ public class Ship : MonoBehaviour
 	public float maxSpeed = 5;
 	public float speed = 0;
 
-
-	// Start is called before the first frame update
-	void Start()
+	private void Start()
 	{
 		transform.LookAt(enemy, Vector3.up);
+		target = enemy.position - transform.position;
+		target = -target.normalized * 10;
 	}
 
 	Vector3 Arrive(Vector3 target)
@@ -40,7 +41,7 @@ public class Ship : MonoBehaviour
 	public Vector3 CalculateForce()
 	{
 		Vector3 force = Vector3.zero;
-		force += Arrive(enemy.position);
+		force += Arrive(enemy.position + target);
 		return force;
 	}
 
