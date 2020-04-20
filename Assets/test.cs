@@ -30,6 +30,7 @@ public class test : MonoBehaviour
 		transform.LookAt(enemy, Vector3.up);
 		t = enemy.position - transform.position;
 		//t = t - new Vector3(0,0,2);
+		t = t.normalized * 2;
 
 		startTime = Time.time;
 		journeyLength = Vector3.Distance(start, enemy.position);
@@ -73,6 +74,7 @@ public class test : MonoBehaviour
 
 		float distCovered = (Time.time - startTime) * speed;
 		float fractionOfJourney = distCovered / journeyLength;
-		transform.position = Vector3.Lerp(start, enemy.position + (-t / 2), fractionOfJourney);
+		transform.position = Vector3.Lerp(start, enemy.position + -t, fractionOfJourney);
+		Debug.Log(t);
 	}
 }
